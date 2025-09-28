@@ -1,0 +1,347 @@
+/* Publication/Contribution row with teaser image */
+.publication-row {
+  display: flex;
+  align-items: center;
+  gap: 1.1em;
+  margin-bottom: 0.7em;
+}
+.publication-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 3px;
+  background: #f3f3f3;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.publication-main {
+  flex: 1;
+  min-width: 0;
+}
+/* Nickname subtitle under name */
+.nickname-subtitle {
+  font-size: 1.05rem;
+  color: #888;
+  font-style: italic;
+  margin-bottom: 0.1em;
+}
+.university {
+  font-size: 0.9em;
+  color: #555;
+  margin: 0.1em 0 0.1em 0.1em;
+}
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, a.active {
+  color: #005fa3;
+  text-decoration: underline;
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+header {
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1.5rem 0 1rem 0;
+  margin-bottom: 2rem;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.profile-pic {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0077cc;
+}
+nav {
+  margin-top: 0.5rem;
+}
+nav a {
+  margin-right: 1.2rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+nav a:last-child {
+  margin-right: 0;
+}
+main {
+  margin-bottom: 2rem;
+  flex: 1 0 auto;
+}
+section {
+  margin-bottom: 2rem;
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.3rem;
+  color: #303030;
+  font-weight: 600;
+  border-bottom: 5px double #39506b;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  position: relative;
+}
+h3 {
+  font-size: 1rem;
+  color: #555;
+  font-weight: 800;
+}
+ul {
+  margin-left: 0;
+  margin-bottom: 0.7rem;
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  padding-left: 0;
+  margin-bottom: 0.5em;
+}
+
+/* Publication citation style (like resume) */
+.publication-cite {
+  display: flex;
+  align-items: stretch;
+  gap: 0.3em;
+  margin: 0.2em 0 0.7em 0.1em;
+}
+.publication-cite-line {
+  min-width: 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 0.1em;
+  border-right: 2px solid #e0e0e0;
+}
+.publication-cite-content {
+  flex: 1;
+  padding-left: 0.3em;
+}
+
+.btn {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  text-align: center;
+  background: #39506b; /* darker pastel navy blue */
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+  width: auto;
+}
+
+.btn:hover {
+  background: #25364a; /* even darker pastel navy */
+}
+/* Resume logo + text alignment with vertical divider */
+.resume-entry {
+  display: flex;
+  align-items: stretch;
+  gap: 0.3em;
+  margin-bottom: 0.2em;
+}
+.resume-logo-col {
+  min-width: 2.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 0.1em;
+  border-right: 2px solid #e0e0e0;
+}
+.unica-logo {
+  width: 1.2em;
+  height: auto;
+  margin: 0 0.1em 0.1em 0;
+  display: block;
+}
+.resume-content-col {
+  flex: 1;
+  padding-left: 0.3em;
+}
+/* Sub-resume (indented) and curved arrow bullet */
+.sub-resume {
+  list-style: none;
+  margin-left: 0.1em;
+  margin-top: 0.6em;
+  margin-bottom: 0.1em;
+  padding-left: 0;
+}
+footer {
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  padding: 1rem 0;
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+/* publications */
+.pub-year { margin: 1.4rem 0 .4rem; font-size: 1.25rem; }
+.pub-list { list-style: none; padding: 0; margin: 0; }
+.pub-item { padding: .6rem 0 .9rem; border-bottom: 1px solid #eee; }
+.pub-main .authors { color:#333; }
+.pub-main .title { display:inline; font-weight:700; margin:.1rem 0; }
+.pub-main .venue { color:#444; font-size:.95rem; margin:.2rem 0; }
+.title.p-name + .pub-tags { margin-left: .75rem; }
+.pub-tags {
+  display:inline-flex;
+  gap:.25rem;
+}
+.pub-tag {
+  display:inline-block;
+  padding:.35rem .35rem;
+  font-size:.72rem;
+  line-height:1.1;
+  color:#fff;
+}
+.pub-tag.tag-proc {
+  background:#1e90ff;
+}
+.pub-tag.tag-journal {
+  background:#2ea44f;
+}
+.pub-tag.tag-best {
+  background: #e11d48;
+}
+.additional-publisher {
+  color:#555;
+}
+.pub-actions {
+  margin-top:.25rem;
+  font-size:.95rem;
+  display:flex;
+  gap:.5rem;
+  flex-wrap:wrap;
+  align-items: baseline;
+}
+.links-label {
+  color:#333;
+  margin-right:.25rem;
+}
+.links-inline a {
+  text-decoration: underline;
+}
+details.bib summary {
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+details.bib summary::after { content: " ▸"; }
+details.bib[open] summary { text-decoration: none; }
+details.bib[open] summary::after { content: " ▾"; }
+pre.bibtex {
+  background:#f7f9fc; border:1px solid #e9eef5; border-radius:6px;
+  padding:.6rem; overflow:auto; margin-top:.4rem;
+}
+.links-inline {
+  display:inline-flex;
+  gap:.4rem;
+  align-items:center;
+}
+.icon-link {
+  color:#6b7280;
+}
+.icon-link:hover {
+  color:#111827;
+}
+.icon-link i,
+.icon-link svg {
+  color:inherit !important;
+  fill: currentColor;
+}
+.icon-link img.icon {
+  width:16px;
+  height:16px;
+  filter:grayscale(100%);
+  opacity:.95;
+}
+.icon-link:hover img.icon {
+  filter:none;
+  opacity:1;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 700px) {
+  /* Show mobile publication title, hide desktop */
+  .publication-title-mobile {
+    display: block;
+  }
+  .publication-title {
+    display: none;
+  }
+  .header-flex {
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: center;
+  }
+  .container {
+    width: 98%;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+  }
+  nav a {
+    display: inline-block;
+    margin: 0 0.7rem 0.5rem 0.7rem;
+    font-size: 1rem;
+  }
+  .profile-pic {
+    width: 90px;
+    height: 90px;
+  }
+  .links-inline { display:inline; }
+}
+
+@media (min-width: 701px) {
+  /* Show desktop publication title, hide mobile */
+  .publication-title-mobile {
+    display: none;
+  }
+  .publication-title {
+    display: block;
+  }
+}
+
+@media (hover:hover) {
+  .pub-tag:hover {
+    filter: saturate(1.15);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0,0,0,.12);
+    transition: all .12s ease;
+  }
+}

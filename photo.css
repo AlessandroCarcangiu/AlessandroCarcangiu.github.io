@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+/* Polaroid photo gallery */
+.polaroid-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.polaroid {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+  padding: 0.7rem 0.7rem 0.5rem 0.7rem;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(-2deg);
+  margin-bottom: 1.5rem;
+  position: relative;
+  transition: transform 0.2s;
+}
+.polaroid img {
+  width: 100%;
+  aspect-ratio: unset;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.7rem;
+  background: #eee;
+}
+.polaroid .caption {
+  font-family: 'Sarina', cursive;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.1rem;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 1.2;
+  max-height: 1.6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 0 0.15em 0;
+}
+.polaroid:hover {
+  transform: scale(1.2) rotate(1deg);
+}
+@media (max-width: 700px) {
+  .polaroid { width: 50%; height: auto;}
+}
