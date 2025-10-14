@@ -261,9 +261,26 @@ details.bib summary {
   display: inline-flex;
   align-items: center;
 }
-details.bib summary::after { content: " ▸"; }
-details.bib[open] summary { text-decoration: none; }
-details.bib[open] summary::after { content: " ▾"; }
+#bibtex-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%) translateY(20px);
+  padding: 10px 14px;
+  background: rgba(20, 20, 25, .92);
+  color: #fff;
+  font-size: .9rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .18s ease, transform .18s ease;
+  z-index: 9999;
+}
+#bibtex-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 pre.bibtex {
   background:#f7f9fc; border:1px solid #e9eef5; border-radius:6px;
   padding:.6rem; overflow:auto; margin-top:.4rem;
@@ -294,6 +311,14 @@ pre.bibtex {
   filter:none;
   opacity:1;
 }
+details.bib > summary::-webkit-details-marker { display: none; }
+details.bib > summary {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  list-style: none; /* Firefox */
+}
+
 
 
 /* Responsive Styles */
