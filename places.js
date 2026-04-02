@@ -271,7 +271,6 @@ function initMap() {
 function setupMapButtons() {
   const btnEurope = document.getElementById('btn-europe');
   const btnJapan = document.getElementById('btn-japan');
-  const btnAustralia = document.getElementById('btn-australia');
   const btnWorld = document.getElementById('btn-world');
   if (btnEurope) {
     btnEurope.onclick = () => {
@@ -287,11 +286,6 @@ function setupMapButtons() {
   if (btnJapan) {
     btnJapan.onclick = () => {
       if (mapInstance) mapInstance.setView([36.2, 138.2], 5); // Japan
-    };
-  }
-  if (btnAustralia) {
-    btnAustralia.onclick = () => {
-      if (mapInstance) mapInstance.setView([-25, 134], 4); // Australia
     };
   }
   if (btnWorld) {
