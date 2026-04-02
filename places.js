@@ -112,7 +112,7 @@ const places = [
     name: "Cagliari, Sardinia",
     lat: 39.23054,
     lng: 9.11917,
-    img: "https://www.rossocorallo.info/wp-content/uploads/2019/09/hotel-panorama-cagliari-centro-in-sardegna11.jpg",
+    img: "https://pixabay.com/it/photos/search/sardegna/",
     desc: ""
   },
   {
