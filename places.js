@@ -112,7 +112,7 @@ const places = [
     name: "Cagliari, Sardinia",
     lat: 39.23054,
     lng: 9.11917,
-    img: "https://pixabay.com/it/photos/search/sardegna/",
+    img: "https://pixabay.com/it/photos/cagliari-bastione-santa-croce-porto-2475483/",
     desc: ""
   },
   {
