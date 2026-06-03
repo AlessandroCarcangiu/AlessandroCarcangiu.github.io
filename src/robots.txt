@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alessandrocarcangiu.github.io/sitemap.xml
