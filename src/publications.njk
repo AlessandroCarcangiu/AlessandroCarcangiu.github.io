@@ -1,0 +1,39 @@
+---
+layout: base.njk
+title: "Alessandro Carcangiu"
+description: "Researcher and software developer from Cagliari. I work on human-computer interaction and XR, and build full-stack apps with Django and VUE. Into sport, archaeology, science, and geopolitics."
+canonical: "https://alessandrocarcangiu.github.io/publications/"
+navActive: "publications"
+permalink: "/publications/index.html"
+extraHead: |
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css" rel="stylesheet">
+extraBody: |
+  <script src="/assets/bibtex-copy.js" defer></script>
+---
+<section>
+    <h2>Publications</h2>
+    {% for group in pubsByYear %}
+    <h3 class="pub-year">{{ group.year }}</h3>
+    <ul class="pub-list">
+        {% for p in group.items %}
+        <li class="pub-item h-entry">
+            <div class="pub-main">
+                <span class="authors">{% for a in p.authors %}<i class="p-author h-card">{{ a }}</i>{% if not loop.last %}, {% endif %}{% endfor %}</span>
+                <br/>
+                <span class="title p-name">{{ p.title }}</span>
+                {% if p.tags | length %}<span class="pub-tags">{% for t in p.tags %}{% set tagClass = tagClasses[t] %}<span class="pub-tag{% if tagClass %} {{ tagClass }}{% endif %}">{{ t }}</span>{% endfor %}</span>{% endif %}
+                {% if p.venue %}<div class="venue">{{ p.venue | safe }}</div>{% endif %}
+            </div>
+            <div class="pub-actions">
+                {% if p.bibtex %}<details class="bib"><summary>BibTeX</summary><pre class="bibtex">{{ p.bibtex }}</pre></details>{% endif %}
+                {% if p.links | length %}
+                <span class="links-label">Links:</span>
+                <span class="links-inline">{% for l in p.links %}<a class="icon-link" href="{{ l.href }}" title="{{ l.label }}">{% if l.label == "DOI" %}<i class="ai ai-doi" aria-hidden="true"></i>{% else %}<i aria-hidden="true" class="fa-solid fa-file-pdf"></i>{% endif %}<span class="sr-only">{{ l.label }}</span></a>{% endfor %}</span>
+                {% endif %}
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</section>

@@ -1,0 +1,16 @@
+{
+  "name": "alessandrocarcangiu.github.io",
+  "version": "1.0.0",
+  "description": "Personal website of Alessandro Carcangiu.",
+  "license": "MIT",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "js-yaml": "^4.2.0"
+  }
+}

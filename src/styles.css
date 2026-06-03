@@ -132,7 +132,7 @@ ul li {
   margin: 0.2em 0 0.7em 0.1em;
 }
 .publication-cite-line {
-  min-width: 0em;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   align-items: center;

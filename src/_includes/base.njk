@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="author" content="Alessandro Carcangiu">
+    {% if noindex %}<meta name="robots" content="noindex">{% endif %}
+    {% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    {% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
+    <meta property="og:image" content="https://alessandrocarcangiu.github.io/media/profile_pic.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="https://alessandrocarcangiu.github.io/media/profile_pic.jpg">
+    <link rel="stylesheet" href="/styles.css">
+    {% if extraHead %}{{ extraHead | safe }}{% endif %}
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <img src="/media/profile_pic.jpg" alt="Profile Picture" class="profile-pic">
+            <div>
+                <h1>Alessandro Carcangiu</h1>
+                <h3>Post-doc Researcher</h3>
+                <nav>
+                    <a href="/"{% if navActive == "home" %} class="active"{% endif %}>Home</a>
+                    <a href="/publications/"{% if navActive == "publications" %} class="active"{% endif %}>Publications</a>
+                    <a href="/places/"{% if navActive == "places" %} class="active"{% endif %}>Travel</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+{{ content | safe }}
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Alessandro Carcangiu. All rights reserved.</p>
+        </div>
+    </footer>
+    {% if extraBody %}{{ extraBody | safe }}{% endif %}
+</body>
+</html>

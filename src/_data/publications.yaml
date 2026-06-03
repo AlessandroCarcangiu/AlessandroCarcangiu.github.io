@@ -1,0 +1,325 @@
+- year: '2026'
+  authors:
+  - Jacopo Mereu
+  - Alessandro Carcangiu
+  - Valentino Artizzu
+  - Federico Maria Cau
+  - Lucio Davide Spano
+  title: 'Specializing LLMs to Low-Documented Domains with RAG: An Analysis Across Models and Retrieval Depths'
+  tags:
+  - Journal Article
+  venue: 'In: <em> SN Computer Science </em> <span class="additional-publisher">Springer Nature Singapore</span> , 2026,'
+  links:
+  - href: https://doi.org/10.1007/s42979-026-04844-6
+    label: DOI
+  bibtex: "@article{mereu2026specializing,\n                          title={Specializing LLMs to Low-Documented Domains with RAG: An Analysis Across Models and Retrieval Depths},\n                          author={Mereu, Jacopo and Carcangiu, Alessandro and Artizzu, Valentino and Cau, Federico Maria and Spano, Lucio Davide},\n                          journal={SN Computer Science},\n                          volume={7},\n                          number={4},\n                          pages={320},\n                          year={2026},\n                          publisher={Springer}\n                        }"
+- year: '2025'
+  authors:
+  - Alessandro Carcangiu
+  - Marco Manca
+  - Jacopo Mereu
+  - Carmen Santoro
+  - Ludovica Simeoli
+  - Lucio Davide Spano
+  title: 'Tell-XR: Conversational End-User Development of XR Automations'
+  tags:
+  - Proceedings Article
+  - Best Paper
+  venue: 'In: <em> Human-Computer Interaction – INTERACT 2025 </em> , Lecture Notes in Computer Science (LNCS, vol. 16108), <span class="additional-publisher">Springer</span> , Belo Horizonte, Brazil, 2025, ISBN: 978-3-032-04999-5 — <a class="icon-link" href="https://interact2025.org/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://link.springer.com/book/10.1007/978-3-032-05005-2" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: /data/2025_tell_xr_conversational_end_user_development_of_xr_automations.pdf
+    label: PDF
+  - href: https://link.springer.com/chapter/10.1007/978-3-032-04999-5_35
+    label: DOI
+  bibtex: "@inproceedings{carcangiu2025tellxr,\n                          title     = {Tell-XR: Conversational End-User Development of XR Automations},\n                          author    = {Carcangiu, Alessandro and Manca, Marco and Mereu, Jacopo and Santoro, Carmen and Simeoli, Ludovica and Spano, Lucio Davide},\n                          booktitle = {Human-Computer Interaction – INTERACT 2025},\n                          series    = {Lecture Notes in Computer Science},\n                          volume    = {16108},\n                          publisher = {Springer},\n                          year      = {2025},\n                          isbn      = {978-3-032-04999-5},\n                          url       = {https://link.springer.com/chapter/10.1007/978-3-032-04999-5_35},\n                          doi       = {10.1007/978-3-032-04999-5_35}\n                        }"
+- year: '2025'
+  authors:
+  - Alessandro Carcangiu
+  - Marco Manca
+  - Jacopo Mereu
+  - Carmen Santoro
+  - Ludovica Simeoli
+  - Lucio Davide Spano
+  title: 'Conversational Rule Creation in XR: User’s Strategies in VR and AR Automation'
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> End-User Development: 10th International Symposium, IS-EUD 2025, Munich, Germany, June 16–18, 2025, Proceedings </em> <a class="icon-link" href="https://iseud2025.ubicomp.net/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://link.springer.com/book/10.1007/978-3-031-95452-8" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: /data/2025_conversational_rule_creation_in_xr_user_strategies_in_vr_and_ar_automation.pdf
+    label: PDF
+  - href: https://dl.acm.org/doi/abs/10.1007/978-3-031-95452-8_4
+    label: DOI
+  bibtex: "@inproceedings{carcangiu2025conversational,\n                          title={Conversational Rule Creation in XR: User’s Strategies in VR and AR Automation},\n                          author={Carcangiu, Alessandro and Manca, Marco and Mereu, Jacopo and Santoro, Carmen and Simeoli, Ludovica and Spano, Lucio Davide},\n                          booktitle={International Symposium on End User Development},\n                          pages={59--79},\n                          year={2025},\n                          organization={Springer}\n                        }"
+- year: '2024'
+  authors:
+  - Jacopo Mereu
+  - Valentino Artizzu
+  - Alessandro Carcangiu
+  - Lucio Davide Spano
+  - Ludovica Simeoli
+  - Andrea Mattioli
+  - Marco Manca
+  - Carmen Santoro
+  - Fabio Paternò
+  title: Empowering End-Users in Creating Extended Reality Content with a Conversational Chatbot
+  tags:
+  - Proceedings Article
+  venue: 'In: Proceedings of the Engineering Interactive Systems Embedding AI Technologies (EISEAIT) Workshop @ EICS 2024, <span class="additional-publisher">CEUR Workshop Proceedings</span> , CEUR-WS.org, Cagliari, Italy, 2024, ISSN: 1613-0073 — <a class="icon-link" href="https://eics.acm.org/2024/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://link.springer.com/book/10.1007/978-3-031-91760-8" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: https://iris.cnr.it/bitstream/20.500.14243/546482/1/preprint-EISEAIT_2024_paper_10.pdf
+    label: PDF
+  - href: https://link.springer.com/chapter/10.1007/978-3-031-91760-8_9
+    label: DOI
+  bibtex: "@inproceedings{mereu2024empowering,\n                          title={Empowering end-user in creating extended reality content with a conversational chatbot},\n                          author={Mereu, Jacopo and Artizzu, Valentino and Carcangiu, Alessandro and Spano, Lucio Davide and Simeoli, Ludovica and Mattioli, Andrea and Manca, Marco and Santoro, Carmen and Patern{\\`o}, Fabio},\n                          booktitle={International Symposium on Engineering Interactive Computer Systems},\n                          pages={126--137},\n                          year={2024},\n                          organization={Springer}\n                        }"
+- year: '2024'
+  authors:
+  - Valentino Artizzu
+  - Alessandro Carcangiu
+  - Marco Manca
+  - Andrea Mattioli
+  - Jacopo Mereu
+  - Fabio Paternò
+  - Carmen Santoro
+  - Ludovica Simeoli
+  - Lucio Davide Spano
+  title: End-User Development for eXtended Reality using a Multimodal Intelligent Conversational Agent
+  tags:
+  - Proceedings Article
+  venue: 'In: <em>RealXR: Prototyping and Developing Real-World Applications for Extended Reality (Workshop @ AVI 2024)</em>, <span class="additional-publisher">Association for Computing Machinery</span>, Genova, Italy, 2024 — <a class="icon-link" href="https://avi2024.dibris.unige.it/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://ceur-ws.org/Vol-3704/" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: https://ceur-ws.org/Vol-3704/paper5.pdf
+    label: PDF
+  bibtex: "@inproceedings{artizzu2024eudxr,\n                          title={End-user development for extended reality using a multimodal intelligent conversational agent},\n                          author={Artizzu, Valentino and Carcangiu, Alessandro and Manca, Marco and Mattioli, Andrea and Mereu, Jacopo and Patern{\\`o}, Fabio and Santoro, Carmen and Simeoli, Ludovica and Spano, Lucio Davide and others},\n                          booktitle={CEUR WORKSHOP PROCEEDINGS},\n                          volume={3704},\n                          year={2024},\n                          organization={CEUR-WS}\n                        }"
+- year: '2020'
+  authors:
+  - Silvio Barra
+  - Alessandro Carcangiu
+  - Salvatore Mario Carta
+  - Alessandro Sebastian Podda
+  - Daniele Riboni
+  title: A Voice User Interface for Football Event Tagging Applications
+  tags:
+  - Proceedings Article
+  venue: 'In: Proceedings of the 2020 International Conference on Advanced Visual Interfaces (AVI ’20), <span class="additional-publisher">Association for Computing Machinery</span> , Ischia Island, Italy, 2020, ISBN: 978-1-4503-7535-1 — <a class="icon-link" href="https://sites.google.com/unisa.it/avi2020/home" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://dl.acm.org/doi/proceedings/10.1145/3399715" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: /data/2020_a_voice_user_interface_for_football_event_tagging_applications.pdf
+    label: PDF
+  - href: https://dl.acm.org/doi/10.1145/3399715.3399967
+    label: DOI
+  bibtex: "@inproceedings{barra2020vui,\n                          title={A voice user interface for football event tagging applications},\n                          author={Barra, Silvio and Carcangiu, Alessandro and Carta, Salvatore and Podda, Alessandro Sebastian and Riboni, Daniele},\n                          booktitle={Proceedings of the 2020 International Conference on Advanced Visual Interfaces},\n                          pages={1--3},\n                          year={2020}\n                        }"
+- year: '2019'
+  authors:
+  - Alessandro Carcangiu
+  - Lucio Davide Spano
+  - Giorgio Fumera
+  - Fabio Roli
+  title: 'DEICTIC: A Compositional and Declarative Gesture Description based on Hidden Markov Models'
+  tags:
+  - Journal Article
+  venue: 'In: <em> International Journal of Human-Computer Studies </em> , Vol. 122, <span class="additional-publisher">Elsevier</span> , 2019, ISSN: 1071-5819'
+  links:
+  - href: https://iris.unica.it/bitstream/11584/251572/10/paper.pdf
+    label: PDF
+  - href: https://www.sciencedirect.com/science/article/abs/pii/S1071581918305081
+    label: DOI
+  bibtex: "@article{carcangiu2019deictic,\n                          title={DEICTIC: A compositional and declarative gesture description based on hidden markov models},\n                          author={Carcangiu, Alessandro and Spano, Lucio Davide and Fumera, Giorgio and Roli, Fabio},\n                          journal={International Journal of Human-Computer Studies},\n                          volume={122},\n                          pages={113--132},\n                          year={2019},\n                          publisher={Elsevier}\n                        }"
+- year: '2019'
+  authors:
+  - Alessandro Carcangiu
+  - Lucio Davide Spano
+  title: Integrating Declarative Models and HMMs for Online Gesture Recognition
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Companion Proceedings of the 24th International Conference on Intelligent User Interfaces (IUI ’19 Companion) </em> , <span class="additional-publisher">Association for Computing Machinery</span> , Marina del Rey, CA, USA, 2019, ISBN: 978-1-4503-6673-1 — <a class="icon-link" href="https://iui.acm.org/2019/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://dl.acm.org/doi/proceedings/10.1145/3301275" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: /data/2019_integrating_declarative_models_and_hmms_for_online_gesture_recognition.pdf
+    label: PDF
+  - href: https://dl.acm.org/doi/10.1145/3308557.3308709
+    label: DOI
+  bibtex: "@inproceedings{carcangiu2019integrating,\n                          title={Integrating declarative models and HMMs for online gesture recognition},\n                          author={Carcangiu, Alessandro and Spano, Lucio Davide},\n                          booktitle={Companion Proceedings of the 24th International Conference on Intelligent User Interfaces},\n                          pages={87--88},\n                          year={2019}\n                        }"
+- year: '2018'
+  authors:
+  - Alessandro Carcangiu
+  - Lucio Davide Spano
+  title: 'G-Gene: A Gene Alignment Method for Online Partial Stroke Gestures Recognition'
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Proceedings of the ACM on Human-Computer Interaction (PACMHCI), Vol. 2, EICS, Article 13 </em> , <span class="additional-publisher">Association for Computing Machinery</span> , 2018, ISSN: 2573-0142, DOI: 10.1145/3229095 — <a class="icon-link" href="https://eics.acm.org/2018/index.html" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://dl.acm.org/toc/pacmhci/2018/2/EICS" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: https://www.researchgate.net/profile/Alessandro-Carcangiu/publication/325889857_G-Gene_A_Gene_Alignment_Method_for_Online_Partial_Stroke_Gestures_Recognition/links/5b46061ca6fdcc66191823d2/G-Gene-A-Gene-Alignment-Method-for-Online-Partial-Stroke-Gestures-Recognition.pdf
+    label: PDF
+  - href: https://dl.acm.org/doi/10.1145/3229095
+    label: DOI
+  bibtex: "@article{carcangiu2018ggene,\n                          title={G-gene: A gene alignment method for online partial stroke gestures recognition},\n                          author={Carcangiu, Alessandro and Spano, Lucio Davide},\n                          journal={Proceedings of the ACM on Human-Computer Interaction},\n                          volume={2},\n                          number={EICS},\n                          pages={1--17},\n                          year={2018},\n                          publisher={ACM New York, NY, USA}\n                        }"
+- year: '2018'
+  authors:
+  - Matteo Serpi
+  - Alessandro Carcangiu
+  - Alessio Murru
+  - Lucio Davide Spano
+  title: 'Web5VR: A Flexible Framework for Integrating Virtual Reality Input and Output Devices on the Web'
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Proceedings of the ACM on Human-Computer Interaction (PACMHCI), Vol. 2, EICS, Article 4 </em> , <span class="additional-publisher">Association for Computing Machinery</span> , 2018, ISSN: 2573-0142, DOI: 10.1145/3179429 — <a class="icon-link" href="https://eics.acm.org/2018/index.html" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://dl.acm.org/toc/pacmhci/2018/2/EICS" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: https://www.researchgate.net/profile/Lucio-Spano/publication/325883318_Web5VR_A_Flexible_Framework_for_Integrating_Virtual_Reality_Input_and_Output_Devices_on_the_Web/links/5b505da0a6fdcc8dae2c429c/Web5VR-A-Flexible-Framework-for-Integrating-Virtual-Reality-Input-and-Output-Devices-on-the-Web.pdf
+    label: PDF
+  - href: https://dl.acm.org/doi/10.1145/3179429
+    label: DOI
+  bibtex: "@article{serpi2018web5vr,\n                          title={Web5VR: a flexible framework for integrating virtual reality input and output devices on the web},\n                          author={Serpi, Matteo and Carcangiu, Alessandro and Murru, Alessio and Spano, Lucio Davide},\n                          journal={Proceedings of the ACM on Human-Computer Interaction},\n                          volume={2},\n                          number={EICS},\n                          pages={1--19},\n                          year={2018},\n                          publisher={ACM New York, NY, USA}\n                        }"
+- year: '2018'
+  authors:
+  - Fabio Marco Caputo
+  - Pietro Prebianca
+  - Alessandro Carcangiu
+  - Lucio Davide Spano
+  - Andrea Giachetti
+  title: Comparing 3D Trajectories for Simple Mid-Air Gesture Recognition
+  tags:
+  - Journal Article
+  venue: 'In: <em> Computers &amp; Graphics </em> <span class="additional-publisher">Elsevier</span>'
+  links:
+  - href: https://www.sciencedirect.com/science/article/abs/pii/S0097849318300335?via%3Dihub
+    label: DOI
+  bibtex: "@article{caputo2018comparing,\n                          title={Comparing 3D trajectories for simple mid-air gesture recognition},\n                          author={Caputo, Fabio M and Prebianca, Pietro and Carcangiu, Alessandro and Spano, Lucio D and Giachetti, Andrea},\n                          journal={Computers \\& Graphics},\n                          volume={73},\n                          pages={17--25},\n                          year={2018},\n                          publisher={Elsevier}\n                        }"
+- year: '2017'
+  authors:
+  - Alessandro Carcangiu
+  - Lucio Davide Spano
+  - Giorgio Fumera
+  - Fabio Roli
+  title: Gesture Modelling and Recognition by Integrating Declarative Models and Pattern Recognition Algorithms
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> International Conference on Image Analysis and Processing (ICIAP 2017) </em> , Catania, Italy, 2017 — <a class="icon-link" href="http://www.iciap2017.com/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://link.springer.com/book/10.1007/978-3-319-68560-1" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: https://www.researchgate.net/profile/Lucio-Spano/publication/319955983_Gesture_Modelling_and_Recognition_by_Integrating_Declarative_Models_and_Pattern_Recognition_Algorithms/links/59e854c9a6fdccfe7f8b431d/Gesture-Modelling-and-Recognition-by-Integrating-Declarative-Models-and-Pattern-Recognition-Algorithms.pdf
+    label: PDF
+  - href: https://link.springer.com/chapter/10.1007/978-3-319-68560-1_8?error=cookies_not_supported&code=7c1329ef-b9b6-4600-87fa-d8dbcbafed64
+    label: DOI
+  bibtex: "@inproceedings{carcangiu2017gesture,\n                          title={Gesture modelling and recognition by integrating declarative models and pattern recognition algorithms},\n                          author={Carcangiu, Alessandro and Spano, Lucio Davide and Fumera, Giorgio and Roli, Fabio},\n                          booktitle={International Conference on Image Analysis and Processing},\n                          pages={84--95},\n                          year={2017},\n                          organization={Springer}\n                        }"
+- year: '2017'
+  authors:
+  - Fabio Marco Caputo
+  - Pietro Prebianca
+  - Alessandro Carcangiu
+  - Lucio Davide Spano
+  - Andrea Giachetti
+  title: 'A 3-Cent Recognizer: Simple and Effective Retrieval and Classification of Mid-air Gestures from Single 3D Traces'
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Smart Tools and Applications in Graphics (STAG 2017) </em> , <span class="additional-publisher">Eurographics Association</span> , Catania, Italy, 2017 — <a class="icon-link" href="https://iplab.dmi.unict.it/stag2017/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a>'
+  links:
+  - href: https://www.researchgate.net/profile/Andrea-Giachetti-2/publication/319902258_A_3_Cent_Recognizer_Simple_and_Effective_Retrieval_and_Classification_of_Mid-air_Gestures_from_Single_3D_Traces/links/59c0dfbdaca272aff2e4f3a4/A-3-Cent-Recognizer-Simple-and-Effective-Retrieval-and-Classification-of-Mid-air-Gestures-from-Single-3D-Traces.pdf
+    label: PDF
+  - href: https://dl.acm.org/doi/abs/10.2312/stag.20171221
+    label: DOI
+  bibtex: "@inproceedings{caputo2017threecent,\n                          title={A 3 Cent Recognizer: Simple and Effective Retrieval and Classification of Mid-air Gestures from Single 3D Traces.},\n                          author={Caputo, Fabio Marco and Prebianca, Pietro and Carcangiu, Alessandro and Spano, Lucio Davide and Giachetti, Andrea and others},\n                          booktitle={STAG},\n                          pages={9--15},\n                          year={2017}\n                        }"
+- year: '2017'
+  authors:
+  - Marianna Saba
+  - Fabio Sorrentino
+  - Alessandro Muntoni
+  - Sara Casti
+  - Gianmarco Cherchi
+  - Alessandro Carcangiu
+  - Andrea Villa
+  - Andrea Carboni
+  - Maria Antonietta Pascali
+  title: 'A Seamless Pipeline for the Acquisition of the Body Shape: the Virtuoso Case Study'
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Smart Tools and Applications in Graphics (STAG 2017) </em> , <span class="additional-publisher">Eurographics Association</span> , Catania, Italy, 2017 — <a class="icon-link" href="https://iris.cnr.it/retrieve/cfcf8e5a-9150-453d-adcf-303a881385cf/prod_447369-doc_161208.pdf" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a> <a class="icon-link" href="https://iplab.dmi.unict.it/stag2017/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a>'
+  links:
+  - href: https://iris.cnr.it/retrieve/cfcf8e5a-9150-453d-adcf-303a881385cf/prod_447369-doc_161208.pdf
+    label: PDF
+  - href: https://dl.acm.org/doi/abs/10.2312/stag.20171229
+    label: DOI
+  bibtex: "@inproceedings{saba2017virtuoso,\n                          title={A Seamless Pipeline for the Acquisition of the Body Shape: the Virtuoso Case Study.},\n                          author={Saba, Marianna and Sorrentino, Fabio and Muntoni, Alessandro and Casti, Sara and Cherchi, Gianmarco and Carcangiu, Alessandro and Corda, Fabrizio and Murru, Alessio and Spano, Lucio Davide and Scateni, Riccardo and others},\n                          booktitle={STAG},\n                          pages={71--80},\n                          year={2017}\n                        }"
+- year: '2017'
+  authors:
+  - Federico Maria Cau
+  - Alessandro Carcangiu
+  - Fabio Sorrentino
+  - Lucio Davide Spano
+  title: 'SnAIR Drum: A Gesture Interface for Rhythm Practice'
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Proceedings of the 12th Biannual Conference of the Italian SIGCHI Chapter (CHItaly 2017) </em> Cagliari, Italy, 2017 <a class="icon-link" href="https://sites.unica.it/chitaly2017/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://dl.acm.org/doi/proceedings/10.1145/3125571" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: https://iris.unica.it/bitstream/11584/225622/1/snairdrum-compressed.pdf
+    label: PDF
+  bibtex: "@inproceedings{cau2017snair,\n                          title={SnAIR drum: A gesture interface for rhythm practice},\n                          author={Cau, Federico and Carcangiu, Alessandro and Sorrentino, Fabio and Spano, LUCIO DAVIDE and others},\n                          booktitle={CEUR Workshop Proceedings},\n                          volume={1910},\n                          pages={116--119},\n                          year={2017},\n                          organization={CEUR-WS}\n                        }"
+- year: '2017'
+  authors:
+  - Fabio Sorrentino
+  - Lucio Davide Spano
+  - Sara Casti
+  - Alessandro Carcangiu
+  - Fabrizio Corda
+  - Gianmarco Cherchi
+  - Alessio Murru
+  - Alessandro Muntoni
+  - Stefano Nuvoli
+  - Riccardo Scateni
+  title: 'ChIP: Teaching Coding in Primary Schools'
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Proceedings of the 12th Biannual Conference of the Italian SIGCHI Chapter (CHItaly 2017) </em> Cagliari, Italy, 2017 <a class="icon-link" href="https://sites.unica.it/chitaly2017/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://dl.acm.org/doi/proceedings/10.1145/3125571" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: https://ceur-ws.org/Vol-1910/paper0202.pdf
+    label: PDF
+  bibtex: "@inproceedings{sorrentino2017chip,\n                          title={ChIP: teaching coding in primary schools},\n                          author={Sorrentino, Fabio and Spano, LUCIO DAVIDE and Casti, Sara and Carcangiu, Alessandro and Corda, Fabrizio and Cherchi, Gianmarco and Murru, Alessio and Muntoni, Alessandro and Nuvoli, Stefano and Scateni, Riccardo and others},\n                          booktitle={CEUR Workshop Proceedings},\n                          volume={1910},\n                          pages={106--110},\n                          year={2017},\n                          organization={CEUR-WS}\n                        }"
+- year: '2017'
+  authors:
+  - Alessandro Carcangiu
+  title: A Declarative and Classifier Gesture Recognition Method for Creating an Effective Feedback and Feedforward System
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Proceedings of the 12th Biannual Conference of the Italian SIGCHI Chapter (CHItaly 2017) </em> Cagliari, Italy, 2017 <a class="icon-link" href="https://sites.unica.it/chitaly2017/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a> <a class="icon-link" href="https://dl.acm.org/doi/proceedings/10.1145/3125571" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a>'
+  links:
+  - href: https://ceur-ws.org/Vol-1910/paper0102.pdf
+    label: PDF
+  bibtex: "@inproceedings{carcangiu2017dcpd,\n                          title={A Declarative and Classifier Gesture Recognition Method for Creating an Effective Feedback and Feedforward System.},\n                          author={Carcangiu, Alessandro},\n                          booktitle={DCPD@ CHItaly},\n                          pages={13--24},\n                          year={2017}\n                        }"
+- year: '2016'
+  authors:
+  - Alessandro Carcangiu
+  - Gianni Fenu
+  - Lucio Davide Spano
+  title: A Design Pattern for Multimodal and Multidevice User Interfaces
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Proceedings of the 8th ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS 2016) </em> , <span class="additional-publisher">Association for Computing Machinery</span> , Brussels, Belgium, 2016, pp. 177–182, ISBN: 978-1-4503-4322-0, DOI: 10.1145/2933242.2935876 — <a class="icon-link" href="https://dl.acm.org/doi/proceedings/10.1145/2933242" title="Proceedings volume"> <i aria-hidden="true" class="fa-solid fa-book"> </i> <span class="sr-only">Proceedings</span> </a> <a class="icon-link" href="https://eics.acm.org/2016/" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a>'
+  links:
+  - href: https://iris.unica.it/bitstream/11584/184986/1/eics2016.pdf
+    label: PDF
+  - href: https://dl.acm.org/doi/10.1145/2933242.2935876
+    label: DOI
+  bibtex: "@inproceedings{carcangiu2016mvic,\n                          title={A design pattern for multimodal and multidevice user interfaces},\n                          author={Carcangiu, Alessandro and Fenu, Gianni and Spano, Lucio Davide},\n                          booktitle={Proceedings of the 8th ACM SIGCHI Symposium on Engineering Interactive Computing Systems},\n                          pages={177--182},\n                          year={2016}\n                        }"
+- year: '2016'
+  authors:
+  - Andrea Giachetti
+  - Fabio Marco Caputo
+  - Alessandro Carcangiu
+  - Riccardo Scateni
+  - Lucio Davide Spano
+  title: 'Position Paper: Shape Retrieval and 3D Gestural Interaction'
+  tags:
+  - Proceedings Article
+  venue: 'In: <em> Proceedings of the 9th Eurographics Workshop on 3D Object Retrieval (3DOR 2016) </em> , <span class="additional-publisher">Eurographics Association</span> , Lisbon, Portugal, 2016, DOI: 10.2312/3dor.20161079 — <a class="icon-link" href="https://eg3dor2016.tecnico.ulisboa.pt/index.html#" title="Conference homepage"> <i aria-hidden="true" class="fa-solid fa-house"> </i> <span class="sr-only">Conference</span> </a>'
+  links:
+  - href: https://diglib.eg.org/bitstream/handle/10.2312/3dor20161079/001-004.pdf
+    label: PDF
+  - href: https://diglib.eg.org/items/0cd17fea-b20b-4e52-b122-e6f4e7748f3a
+    label: DOI
+  bibtex: "@inproceedings{giachetti2016shape,\n                          title={Position paper: Shape Retrieval and 3D Gestural Interaction},\n                          author={Giachetti, Andrea and Caputo, Fabio Marco and Carcangiu, Alessandro and Scateni, Riccardo and Spano, Lucio Davide and others},\n                          booktitle={Eurographics Workshop on 3D Object Retrieval, EG 3DOR},\n                          pages={1--4},\n                          year={2016},\n                          organization={Eurographics Association}\n                        }"
+- year: Thesis
+  authors:
+  - Alessandro Carcangiu
+  title: Combining Declarative Models and Computer Vision Recognition Algorithms for Stroke Gestures
+  tags: []
+  venue: PhD Thesis, University of Cagliari, 2019
+  links:
+  - href: /data/phd_thesis_alessandro_carcangiu_combining_declarative_models_and_computer_vision_recognition_algorithms_for_stroke_gestures.pdf
+    label: PDF
+  bibtex: "@phdthesis{carcangiu2019thesis,\n                              title={Combining declarative models and computer vision recognition algorithms for stroke gestures},\n                              author={Carcangiu, Alessandro and others},\n                              year={2019},\n                              publisher={Universit{\\`a} degli Studi di Cagliari}\n                            }"

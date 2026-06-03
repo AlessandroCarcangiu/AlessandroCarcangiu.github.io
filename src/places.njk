@@ -1,0 +1,22 @@
+---
+layout: base.njk
+title: "Alessandro Carcangiu"
+description: "Researcher and software developer from Cagliari. I work on human-computer interaction and XR, and build full-stack apps with Django and VUE. Into sport, archaeology, science, and geopolitics."
+noindex: true
+navActive: "places"
+permalink: "/places/index.html"
+extraHead: |
+  <link rel="stylesheet" href="/assets/places.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script defer src="/assets/places.js"></script>
+---
+<h3>Travel Map<br>-- Beta version --</h3>
+<div id="map" class="travel-map"></div>
+<div class="map-buttons">
+<button id="btn-europe" type="button">Europe</button>
+<button id="btn-japan" type="button">Japan</button>
+<button id="btn-world" type="button">World</button>
+</div>
+<div class="places-cards">
+</div>

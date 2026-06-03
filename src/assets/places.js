@@ -1,8 +1,5 @@
-
-// Travel page JS: Leaflet map and cards
-// Example places array
 const places = [
-    // Europe
+  // Europe
   {
     name: "Bruxelles, Belgium",
     lat: 50.85045,
@@ -47,9 +44,23 @@ const places = [
   },
   {
     name: "Catania, Italy",
-    lat: 37.507877 ,
+    lat: 37.507877,
     lng: 15.083030,
     img: "https://cdn.pixabay.com/photo/2014/01/15/18/47/catania-246007_1280.jpg",
+    desc: ""
+  },
+  {
+    name: "Ragusa, Italy",
+    lat: 36.9269,
+    lng: 14.7255,
+    img: "https://cdn.pixabay.com/photo/2018/09/08/21/22/houses-3663367_1280.jpg",
+    desc: ""
+  },
+  {
+    name: "Scicli, Italy",
+    lat: 36.7934,
+    lng: 14.7064,
+    img: "https://cdn.create.vista.com/api/media/small/70787451/stock-photo-town-and-s-maria-la-nova-neoclassic-church-in-italy",
     desc: ""
   },
   {
@@ -88,9 +99,16 @@ const places = [
     desc: ""
   },
   {
+    name: "Modena, Italy",
+    lat: 44.6471,
+    lng: 10.9252,
+    img: "https://cdn.pixabay.com/photo/2017/09/17/22/35/modena-2760069_1280.jpg",
+    desc: ""
+  },
+  {
     name: "Varsavia, Poland",
-    lat: 40.620140,
-    lng: 14.979810,
+    lat: 52.2297,
+    lng: 21.0122,
     img: "https://cdn.pixabay.com/photo/2013/10/18/23/37/poland-197670_1280.jpg",
     desc: ""
   },
@@ -112,7 +130,7 @@ const places = [
     name: "Cagliari, Sardinia",
     lat: 39.23054,
     lng: 9.11917,
-    img: "https://pixabay.com/it/photos/cagliari-bastione-santa-croce-porto-2475483/",
+    img: "https://cdn.pixabay.com/photo/2017/07/05/18/15/cagliari-2475483_1280.jpg",
     desc: ""
   },
   {
@@ -164,9 +182,9 @@ const places = [
     img: "https://cdn.pixabay.com/photo/2023/01/19/00/35/glasgow-7728118_1280.jpg",
     desc: ""
   },
-    // Africa
+  // Africa
 
-    // Asia
+  // Asia
   {
     name: "Tokyo, Japan",
     lat: 35.6895,
@@ -240,7 +258,7 @@ const places = [
     desc: ""
   },
 
-    // Oceania
+  // Oceania
 ];
 
 let mapInstance = null;
